@@ -7,21 +7,30 @@ const request = require('request');
 
 module.exports = function(app){
 
-    app.get('/', function(req, res, next){
-     
-      const url = "http://localhost:1337/Articles"; 
+  app.get('/', function(req, res, next){
+    
+    
+
+    
+    const url = "http://localhost:1337/Inicio";
+    
+    request.get(url, (error, response, body) => {
+      let inicio = JSON.parse(body); // guarda o conteudo de artigos na variavel
       
-     // request.get(url, (error, response, body) => {
-       // let json = JSON.parse(body); // guarda o conteudo de artigos na variavel
+
+      
+            
+      
+      
+      res.render('index', {inicio: inicio}); // renderização
         
+   });
+  });
+  
 
-       
-       
 
 
-      });         
     app.get('/index', function(req, res, next){
-
 
       res.render('index', {}); // renderização
     });
@@ -77,7 +86,4 @@ module.exports = function(app){
   });
 
   
-
-  
-
-};
+} 

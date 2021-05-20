@@ -1,0 +1,28 @@
+{
+  "kind": "singleType",
+  "collectionName": "sessao1",
+  "info": {
+    "name": "Sessao",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "empresa": {
+      "type": "string"
+    },
+    "horas": {
+      "type": "string"
+    },
+    "ligacao": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    }
+  }
+}

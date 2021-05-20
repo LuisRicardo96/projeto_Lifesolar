@@ -45,7 +45,7 @@
             <div class="col-lg-4 col-md-12">
               <div class="logo">
                 <a href="/index">
-                  <h1>Builderz</h1>
+                  <h1><%- inicio.empresa %></h1>
                   <!-- <img src="img/logo.jpg" alt="Logo"> -->
                 </a>
               </div>
@@ -58,8 +58,8 @@
                       <i class="flaticon-calendar"></i>
                     </div>
                     <div class="top-bar-text">
-                      <h3>Opening Hour</h3>
-                      <p>Mon - Fri, 8:00 - 9:00</p>
+                      <h3><%- inicio.funcionamento %>></h3>
+                      <p><%- inicio.horario %></p>
                     </div>
                   </div>
                 </div>
@@ -69,8 +69,8 @@
                       <i class="flaticon-call"></i>
                     </div>
                     <div class="top-bar-text">
-                      <h3>Call Us</h3>
-                      <p>+012 345 6789</p>
+                      <h3><%- inicio.atendimento %></h3>
+                      <p><%- inicio.telefone %></p>
                     </div>
                   </div>
                 </div>
@@ -80,8 +80,8 @@
                       <i class="flaticon-send-mail"></i>
                     </div>
                     <div class="top-bar-text">
-                      <h3>Email Us</h3>
-                      <p>info@example.com</p>
+                      <h3><%- inicio.email %></h3>
+                      <p><%- inicio.seu_email %></p>
                     </div>
                   </div>
                 </div>
@@ -111,27 +111,27 @@
               id="navbarCollapse"
             >
               <div class="navbar-nav mr-auto">
-                <a href="/index" class="nav-item nav-link active">Home</a>
-                <a href="/sobre" class="nav-item nav-link">About</a>
-                <a href="/servico" class="nav-item nav-link">Service</a>
-                <a href="/equipe" class="nav-item nav-link">Team</a>
-                <a href="/portifolio" class="nav-item nav-link">Project</a>
+                <a href="/index" class="nav-item nav-link active"><%- inicio.home %></a>
+                <a href="/sobre" class="nav-item nav-link"><%- inicio.sobre %></a>
+                <a href="/servico" class="nav-item nav-link"><%- inicio.servico %></a>
+                <a href="/equipe" class="nav-item nav-link"><%- inicio.equipe %></a>
+                <a href="/portifolio" class="nav-item nav-link"><%- inicio.projetos %></a>
                 <div class="nav-item dropdown">
                   <a
                     href="#"
                     class="nav-link dropdown-toggle"
                     data-toggle="dropdown"
-                    >Pages</a
+                    ><%- inicio.paginas %></a
                   >
                   <div class="dropdown-menu">
-                    <a href="/blog" class="dropdown-item">Blog Page</a>
+                    <a href="/blog" class="dropdown-item"><%- inicio.blog %></a>
                     <a href="/primeiro" class="dropdown-item">Single Page</a>
                   </div>
                 </div>
-                <a href="/contato" class="nav-item nav-link">Contact</a>
+                <a href="/contato" class="nav-item nav-link"><%- inicio.contato %></a>
               </div>
               <div class="ml-auto">
-                <a class="btn" href="#">Get A Quote</a>
+                <a class="btn" href="https://api.whatsapp.com/send?phone=5571982817788&text=Ol%C3%A1%2C%20Gostaria%20de%20fazer%20uma%20cota%C3%A7%C3%A3o"><%- inicio.cotacao %></a>
               </div>
             </div>
           </nav>
@@ -150,7 +150,7 @@
           <div class="carousel-item active">
             <img src="img/carousel-1.jpg" alt="Carousel Image" />
             <div class="carousel-caption">
-              <p class="animated fadeInRight">We Are Professional</p>
+              <p class="animated fadeInRight"><a></p>
               <h1 class="animated fadeInLeft">For Your Dream Project</h1>
               <a
                 class="btn animated fadeInUp"

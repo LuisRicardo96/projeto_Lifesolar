@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/sessao-1",
+      "handler": "sessao1.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/sessao-1",
+      "handler": "sessao1.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/sessao-1",
+      "handler": "sessao1.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

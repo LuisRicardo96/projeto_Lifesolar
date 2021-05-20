@@ -1,0 +1,64 @@
+{
+  "kind": "singleType",
+  "collectionName": "inicios",
+  "info": {
+    "name": "Inicio",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "empresa": {
+      "type": "string"
+    },
+    "funcionamento": {
+      "type": "string"
+    },
+    "atendimento": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "horario": {
+      "type": "string"
+    },
+    "telefone": {
+      "type": "string"
+    },
+    "seu_email": {
+      "type": "string"
+    },
+    "home": {
+      "type": "string"
+    },
+    "sobre": {
+      "type": "string"
+    },
+    "servico": {
+      "type": "string"
+    },
+    "equipe": {
+      "type": "string"
+    },
+    "projetos": {
+      "type": "string"
+    },
+    "paginas": {
+      "type": "string"
+    },
+    "contato": {
+      "type": "string"
+    },
+    "blog": {
+      "type": "string"
+    },
+    "cotacao": {
+      "type": "string"
+    }
+  }
+}
