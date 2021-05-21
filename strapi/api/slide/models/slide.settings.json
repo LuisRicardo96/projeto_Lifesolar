@@ -1,0 +1,70 @@
+{
+  "kind": "singleType",
+  "collectionName": "slides",
+  "info": {
+    "name": "Slide",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "foto1": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "foto2": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "foto3": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "frase1": {
+      "type": "string"
+    },
+    "frase2": {
+      "type": "string"
+    },
+    "frase3": {
+      "type": "string"
+    },
+    "frase1_1": {
+      "type": "string"
+    },
+    "frase2_2": {
+      "type": "string"
+    },
+    "frase3_3": {
+      "type": "string"
+    }
+  }
+}

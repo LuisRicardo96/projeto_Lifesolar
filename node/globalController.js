@@ -17,16 +17,24 @@ module.exports = function(app){
     request.get(url, (error, response, body) => {
       let inicio = JSON.parse(body); // guarda o conteudo de artigos na variavel
       
+      const url = "http://localhost:1337/Slide";
+    
+      request.get(url, (error, response, body) => {
+        let slide = JSON.parse(body); // guarda o conteudo de artigos na variavel
 
-      
+        const url = "http://localhost:1337/Referencia";
+    
+      request.get(url, (error, response, body) => {
+        let referencia = JSON.parse(body); // guarda o conteudo de artigos na variavel
             
       
       
-      res.render('index', {inicio: inicio}); // renderização
+      res.render('index', {inicio: inicio, slide: slide, referencia: referencia}); // renderização
         
    });
   });
-  
+});
+});
 
 
 

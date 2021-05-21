@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/referencia",
+      "handler": "referencia.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/referencia",
+      "handler": "referencia.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/referencia",
+      "handler": "referencia.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

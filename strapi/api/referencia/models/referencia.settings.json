@@ -1,0 +1,33 @@
+{
+  "kind": "singleType",
+  "collectionName": "referencias",
+  "info": {
+    "name": "Referencia"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "referencia1": {
+      "type": "string"
+    },
+    "referencia1_1": {
+      "type": "string"
+    },
+    "referencia2": {
+      "type": "string"
+    },
+    "referencia2_2": {
+      "type": "string"
+    },
+    "referencia3": {
+      "type": "string"
+    },
+    "referencia3_3": {
+      "type": "string"
+    }
+  }
+}
